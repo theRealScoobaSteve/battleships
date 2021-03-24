@@ -76,9 +76,7 @@ function App() {
           return (
             <Col key={id} className="no-gutter">
               <TableSquare className={machineName} handleClick={() => {
-                // if (gridStore.isPlayersTurn) {
                   socket.emit("fire_event", { xCoord, yCoord, id });
-                // }
               }}/>
             </Col>
           );

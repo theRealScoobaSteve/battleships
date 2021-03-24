@@ -84,8 +84,8 @@ export class GridService {
             for (const shipLength of shipData) {
                 // get my random coordinates
                 const isHorizontal = Math.floor(Math.random() * Math.floor(2));
-                const xCoord = Math.floor(Math.random() * Math.floor(12));
-                const yCoord = Math.floor(Math.random() * Math.floor(12));
+                const xCoord = Math.floor(Math.random() * Math.floor(this.maxShipHeight));
+                const yCoord = Math.floor(Math.random() * Math.floor(this.maxShipHeight));
 
                 // if the ship is horizontal
                 if (isHorizontal === 1) {
