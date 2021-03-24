@@ -1,0 +1,22 @@
+.empty {
+  background-color: aqua;
+}
+
+.hit {
+  background-color: green;
+}
+
+.miss {
+  background-color: red;
+}
+
+.ship {
+  background-color: grey;
+}
+
+.battle-grid-square {
+  height: 35px;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: 3px solid black;
+}
