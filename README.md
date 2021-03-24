@@ -19,3 +19,10 @@ PGADMIN_PORT=5050
 - copy the id of the API container
 - run ```docker exec -it <docker_container_id> npx typeorm migrations:run```
 - go to localhost:3000
+
+
+Edge cases missed:
+
+- ships can randomly generate on top of each other
+- players can shoot whenever they want with no constraints
+- win detection does not reset game
